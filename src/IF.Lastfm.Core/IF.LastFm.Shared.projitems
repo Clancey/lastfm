@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f3758002-9322-4129-ba18-380ad5c05312</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>IF.LastFm.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Api\AlbumApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\ArtistApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\ChartApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Album\AddShoutCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Album\GetInfoCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Album\GetShoutsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Album\GetTagsByUserCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Album\GetTopTagsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Album\SearchCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Artist\AddShoutCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Artist\GetInfoCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Artist\GetShoutsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Artist\GetSimilarCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Artist\GetTagsByUserCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Artist\GetTopAlbumsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Artist\GetTopTagsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Artist\GetTopTracksCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Artist\SearchCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Auth\GetMobileSessionCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Chart\GetTopArtistsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Chart\GetTopTracksCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\GetAsyncCommandBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\IAsyncCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\LastAsyncCommandBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Library\GetTracksCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Library\RemoveScrobbleCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Library\RemoveTrackCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\PostAsyncCommandBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Tag\GetInfoCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Tag\GetSimilarCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Tag\GetTopAlbumsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Tag\GetTopTagsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Track\AddShoutCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Track\GetInfoCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Track\GetShoutsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Track\GetSimilarCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Track\LoveCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Track\ScrobbleCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Track\SearchCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Track\UnloveCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\Track\UpdateNowPlayingCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\UnauthenticatedPostAsyncCommandBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\User\AddShoutCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\User\GetInfoCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\User\GetRecentStationsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\User\GetRecentTracksCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\User\GetRecommendedArtistsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\User\GetShoutsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\User\GetTopAlbumsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Commands\User\GetTopArtistsCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Enums\LastResponseStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Enums\LastStatsTimeSpan.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Helpers\ApiExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Helpers\ApiNameAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Helpers\LastResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Helpers\LastResponse{T}.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\Helpers\PageResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\IAlbumApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\IArtistApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\IChartApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\ILastAuth.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\ILibraryAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\ITagApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\ITrackApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\IUserApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\LastAuth.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\LastfmClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\LibraryApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\TagApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\TrackApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\UserApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\ApiBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\CountingHttpClientHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\EnumerableExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\FakeResponseHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\QueueFakeResponseHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Json\LastFmBooleanConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Json\PageResponseJsonConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LastFm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MD5.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\BuyLink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\CountryCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\ILastFmObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\LastAlbum.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\LastArtist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\LastImageSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\LastShout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\LastStation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\LastTag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\LastTrack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\LastUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\LastUserSession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\LastWiki.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\Scrobble.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobblers\IScrobbler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobblers\Scrobbler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobblers\ScrobblerBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobblers\ScrobbleResponse.cs" />
+  </ItemGroup>
+</Project>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22310.1
+VisualStudioVersion = 14.0.23103.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IF.Lastfm.Core.Tests", "src\IF.Lastfm.Core.Tests\IF.Lastfm.Core.Tests.csproj", "{EC1526C6-AE22-4F12-8640-F9613DFCCE1A}"
 EndProject
@@ -23,7 +23,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IF.Lastfm.SQLite.Tests.Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IF.Lastfm.SQLite", "src\IF.Lastfm.SQLite\IF.Lastfm.SQLite.csproj", "{09D7D389-7D67-45B7-90EC-B1D20693DBC5}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "IF.LastFm.Shared", "src\IF.Lastfm.Core\IF.LastFm.Shared.shproj", "{F3758002-9322-4129-BA18-380AD5C05312}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\IF.Lastfm.Core\IF.LastFm.Shared.projitems*{f3758002-9322-4129-ba18-380ad5c05312}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug ARM|Any CPU = Debug ARM|Any CPU
 		Debug ARM|ARM = Debug ARM|ARM
